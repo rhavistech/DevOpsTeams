@@ -1,0 +1,14 @@
+  apiVersion: policy/v1
+  kind: PodDisruptionBudget
+  metadata:
+    name: joaolobo-pdb
+  #spec:
+  #  minAvailable: 3
+  #  selector:
+  #    matchLabels:
+  #      app: joaolobo-dev
+  spec:
+      maxUnavailable: "10%"
+      selector:
+        matchLabels:
+          app: joaolobo-dev

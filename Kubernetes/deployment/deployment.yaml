@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: joaolobo-dev
+  labels:
+    app: joaolobo-dev
+  annotations:
+    joaolobo.com/owner: "Customer Apps Team"
+    joaolobo.com/lowtrafic: "Pods without connections"
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: joaolobo-dev
+  template:
+    metadata:
+      labels:
+        app: joaolobo-dev
+    spec:
+      containers:
+        - name: joaolobo-dev
+          image: joaolgn/joaolobo
+          ports:
+          -  containerPort: 8888
+          resources:
+            requests:
+              memory: "10Mi"
+              cpu: "100m"
+          livenessProbe: #determines if the container is alive
+            httpGet:
+              path: /healthz
+              port: 8888
+            initialDelaySeconds: 3
+            periodSeconds: 3
+          readinessProbe: #A container whose readiness probe fail will be removed from any Service that matches Pod.
+            httpGet:
+              path: /healthz
+              port: 8888
+            initialDelaySeconds: 3
+            periodSeconds: 3
