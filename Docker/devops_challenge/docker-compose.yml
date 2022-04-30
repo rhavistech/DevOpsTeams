@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:alpine
+    restart: always
+    volumes:
+      - db:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: 'la'
+      POSTGRES_DB: 'test'
+      POSTGRES_USER: 'test'
+
+  api:
+    build: ./api
+    restart: always
+    ports:
+      - 3000:3000
+    environment:
+      DB: 'postgres://test:la@db:5432/test'
+      PORT: 3000
+    links:
+      - db
+
+  web:
+    build: ./web
+    restart: always
+    ports:
+      - 8080:8080
+    environment:
+      PORT: 8080
+      API_HOST: 'http://api:3000'
+    links:
+      - api
+
+volumes:
+  db:
