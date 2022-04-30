@@ -4,7 +4,7 @@
 ### Date: 04/15/2022
 
 Terraform presentation with Ezzio on 04/15/2022.
-- [Tech Talk of the Terraform](https://drive.google.com/file/d/1o7qEwbpjJPp9bBPQ1y5aPo9bsM0CvTjd/view?usp=sharing)
+- [Tech Talk about Terraform](https://drive.google.com/file/d/1o7qEwbpjJPp9bBPQ1y5aPo9bsM0CvTjd/view?usp=sharing)
 
 ## VPC
 ```
