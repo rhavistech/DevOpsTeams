@@ -10,4 +10,4 @@ Kubernetes presentation with João Lobo on 05/06/2022.
 
 - [deployment](./deployment/README.md)
 
-- [services] (./services/README.md)
+- [services](./services/README.md)
