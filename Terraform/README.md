@@ -4,8 +4,14 @@
 ### Date: 04/15/2022
 
 Terraform presentation with Ezzio on 04/15/2022.
-- [Tech Talk about Terraform](https://drive.google.com/file/d/1o7qEwbpjJPp9bBPQ1y5aPo9bsM0CvTjd/view?usp=sharing)
 
+[Click here](https://drive.google.com/file/d/1o7qEwbpjJPp9bBPQ1y5aPo9bsM0CvTjd/view?usp=sharing) to watch video class about terraform.
+
+## How create modules in terraform?
+
+[Click here](https://www.terraform.io/language/modules/develop) to about how creating modules in terraform, module structure, when to write a module.
+
+Below are some examples of a module, for example: `VPC`, `Security Group`, `IAM Role`
 ## VPC
 ```
 module "vpc" {

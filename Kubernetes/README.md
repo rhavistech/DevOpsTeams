@@ -4,7 +4,12 @@
 ### Date: 05/06/2022
 
 Kubernetes presentation with João Lobo on 05/06/2022.
-- [Tech Talk about Kubernetes](#)
+
+[Click here](#) to watch video class about kubernetes.
+
+- [architecture](./architecture/README.md)
+
+- [pods](./pods/README.md)
 
 - [namespaces](./namespace/README.md)
 
