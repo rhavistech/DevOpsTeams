@@ -2,5 +2,8 @@
 This repository is intended for the DevOps group
 
 # Tech Talk
-- Ezzio Moreira | 04/15/2022 | [Terraform](https://github.com/joaolgn1985/DevOpsTeam/blob/main/Terraform/README.md)
-- Alesson Viana | 04/29/2022 | [Ansible](https://github.com/joaolgn1985/DevOpsTeam/tree/main/Ansible)
+| Name | Date | About | Version |
+|---------------|------------|-------------------------------------|------|
+| Ezzio Moreira | 04/15/2022 | [Terraform](./Terraform/README.md)  | v1.0 |
+| Alesson Viana | 04/29/2022 | [Ansible](./Ansible/README.md)      | v1.0 |
+| Joao Lobo     | 05/06/2022 | [Kubernetes](./Kubernetes/README.md)| v1.0 |

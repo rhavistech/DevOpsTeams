@@ -1,0 +1,3 @@
+# ignore files of the Intellij
+.idea
+.idea/*
