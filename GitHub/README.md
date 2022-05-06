@@ -37,4 +37,4 @@
 
 8. To delete a branch
 
-`$ git branch -d <name your branch>``
+`$ git branch -d <name your branch>`
