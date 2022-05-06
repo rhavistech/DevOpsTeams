@@ -17,7 +17,7 @@
 
 4. Rigth now is very important you create a new branch
 
-`$ git branch -m "name_of_branch"`
+`$ git branch -m <name_of_branch>`
 
 5. Could you please to test if created of new branch
 
@@ -31,7 +31,7 @@
 
 `$ git commit -m 'write about your project'` to add commit about your project
 
-`$ git push origin 'the name your branch here'`
+`$ git push origin <the name your branch here>`
 
 7. Right now, is creating a push request in GitHub
 
