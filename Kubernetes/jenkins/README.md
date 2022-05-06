@@ -38,6 +38,10 @@ Forwarding from [::1]:8080 -> 8080`
 
 `kubectl create ns jenkins`
 
+### Create a persistent volume
+
+`kubectl apply -f jenkins-volume.yaml`
+
 `kubectl create -f jenkins-deployment.yaml -n jenkins`
 
 `kubectl create -f jenkins-service.yaml -n jenkins`
