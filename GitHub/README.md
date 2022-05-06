@@ -6,6 +6,13 @@
 
 `$ ssh-keygen -t ed25519 -C "your_email@example.com"`
 
+# To set your global username/email configuration:
+1. Open the command line.
+
+2. Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
+
+3. Set your email address: git config --global user.email "MY_NAME@example.com"
+
 # How to push project and working in this
 1. Open which project your is worked
 
