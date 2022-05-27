@@ -5,7 +5,7 @@
 
 Terraform presentation with Ezzio on 04/15/2022.
 
-[Click here](https://youtu.be/Nmgu_2LLZGI) to watch video class about terraform.
+[Click here](https://youtu.be/ym6-PO0tlqM) to watch video class about terraform.
 
 ## How create modules in terraform?
 
