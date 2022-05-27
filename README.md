@@ -12,4 +12,4 @@ This repository is intended for the DevOps group
 | Argeu Alcantara    | 06/08/2022 | [Git](./Git/README.md)                | v1.0   |
 | Ezzio Moreira      | 06/15/2022 | [Git Hub Actions](./Actions/README.md)| v1.0   |
 | Pedro Henrique     | 06/22/2022 | [AWS](./AWS/README.md)                | v1.0   |
-| Edson Lima         | 06/29/2022 | [AWS](./OCI/README.md)                | v1.0   |
+| Edson Lima         | 06/29/2022 | [OCI](./OCI/README.md)                | v1.0   |
