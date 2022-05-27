@@ -1,6 +1,7 @@
 # DevOpsTeam
 This repository is intended for the DevOps group
-
+# DevOpsTeam
+WhatsApp Group: https://chat.whatsapp.com/Gen6yhW2GMP602ZdzPe5Cb
 # Tech Talk
 | Name               |    Date    |               About                   |Version |
 |---------------     |------------|-------------------------------------  |--------|
