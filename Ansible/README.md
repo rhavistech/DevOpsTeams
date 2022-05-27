@@ -5,7 +5,7 @@
 
 Alesson Viana works as a DevOps Engineer at Instituto Atlântico, and in this Tech Talk he shared a little bit of his knowledge about Ansible.
 
-[Click here](https://drive.google.com/file/d/1S4MlhimviIcCDbmTmurAgMm73X-imABR/view?usp=sharing) to watch video class about ansible.
+[Click here](https://youtu.be/laoeytSTU7c) to watch video class about ansible.
 
 
 # Adicional
