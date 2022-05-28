@@ -5,7 +5,7 @@
 
 Kubernetes presentation with João Lobo on 05/06/2022.
 
-[Click here](https://drive.google.com/file/d/1bs1NHzaUYyP8Wx01nTnMneS755SFnQu6/view?usp=sharing) to watch video class about kubernetes.
+[Click here](https://youtu.be/ANviwk6Bmvg) to watch video class about kubernetes.
 
 - [architecture](./architecture/README.md)
 
