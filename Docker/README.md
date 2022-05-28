@@ -5,7 +5,7 @@
 
 Docker presentation with Jefferson on 05/25/2022.
 
-[Click here](https://drive.google.com/file/d/1AQIxIxUoKTQFLhhK3dgB6FBTD3x2XVoc/view?usp=sharing) to watch video class about Docker.
+[Click here](https://youtu.be/YL-yxooEixU) to watch video class about Docker.
 
 ## Dockerfile
 
